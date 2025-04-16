@@ -58,8 +58,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="FirebaseDatabase.net" Version="*" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="*" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="*" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="*" />
 		<PackageReference Include="Syncfusion.Maui.Calendar" Version="*" />
 		<PackageReference Include="Syncfusion.Maui.Chat" Version="*" />
