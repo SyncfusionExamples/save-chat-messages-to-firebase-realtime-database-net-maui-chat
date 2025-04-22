@@ -103,50 +103,50 @@ namespace ChatMaui
             }
         }
 
-        private void GenerateMessages()
-        {
-            this.messages.Add(new TextMessage()
-            {
-                Author = currentUser,
-                Text = "Hi guys, good morning! I'm very delighted to share with you the news that our team is going to launch a new mobile application.",
-            });
+        //private void GenerateMessages()
+        //{
+        //    this.messages.Add(new TextMessage()
+        //    {
+        //        Author = currentUser,
+        //        Text = "Hi guys, good morning! I'm very delighted to share with you the news that our team is going to launch a new mobile application.",
+        //    });
 
-            this.messages.Add(new TextMessage()
-            {
-                Author = new Author() { Name = "Andrea", Avatar = "Andrea.png" },
-                Text = "Oh! That's great.",
-            });
+        //    this.messages.Add(new TextMessage()
+        //    {
+        //        Author = new Author() { Name = "Andrea", Avatar = "Andrea.png" },
+        //        Text = "Oh! That's great.",
+        //    });
 
-            this.messages.Add(new TextMessage()
-            {
-                Author = new Author() { Name = "Harrison", Avatar = "Harrison.png" },
-                Text = "That is good news.",
-            });
+        //    this.messages.Add(new TextMessage()
+        //    {
+        //        Author = new Author() { Name = "Harrison", Avatar = "Harrison.png" },
+        //        Text = "That is good news.",
+        //    });
 
-            this.messages.Add(new TextMessage()
-            {
-                Author = new Author() { Name = "Margaret", Avatar = "Margaret.png" },
-                Text = "Are we going to develop the app natively or hybrid?"
-            });
+        //    this.messages.Add(new TextMessage()
+        //    {
+        //        Author = new Author() { Name = "Margaret", Avatar = "Margaret.png" },
+        //        Text = "Are we going to develop the app natively or hybrid?"
+        //    });
 
-            this.messages.Add(new TextMessage()
-            {
-                Author = currentUser,
-                Text = "We should develop this app in .NET MAUI, since it provides native experience and perfomance as well as allowing for seamless cross-platform development.",
-            });
+        //    this.messages.Add(new TextMessage()
+        //    {
+        //        Author = currentUser,
+        //        Text = "We should develop this app in .NET MAUI, since it provides native experience and perfomance as well as allowing for seamless cross-platform development.",
+        //    });
 
-            this.messages.Add(new TextMessage()
-            {
-                Author = new Author() { Name = "Margaret", Avatar = "Margaret.png" },
-                Text = "I haven't heard of .NET MAUI. What's .NET MAUI?",
-            });
+        //    this.messages.Add(new TextMessage()
+        //    {
+        //        Author = new Author() { Name = "Margaret", Avatar = "Margaret.png" },
+        //        Text = "I haven't heard of .NET MAUI. What's .NET MAUI?",
+        //    });
 
-            this.messages.Add(new TextMessage()
-            {
-                Author = currentUser,
-                Text = ".NET MAUI is a new library that lets you build native UIs for Android, iOS, macOS, and Windows from one shared C# codebase.",
-            });
-        }
+        //    this.messages.Add(new TextMessage()
+        //    {
+        //        Author = currentUser,
+        //        Text = ".NET MAUI is a new library that lets you build native UIs for Android, iOS, macOS, and Windows from one shared C# codebase.",
+        //    });
+        //}
 
         public IDisposable LoadMessages()
         {

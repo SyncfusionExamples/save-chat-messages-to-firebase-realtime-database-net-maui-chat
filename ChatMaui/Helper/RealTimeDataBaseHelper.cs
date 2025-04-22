@@ -9,7 +9,8 @@ namespace ChatMaui
 
         public RealtimeDatabaseService()
         {
-            var firebaseDatabaseUrl = "https://chatdatabase-b9a22-default-rtdb.firebaseio.com/";
+            // Replace with your own Firebase Realtime Database URL 
+            var firebaseDatabaseUrl = "https://chatsource-91d0c-default-rtdb.firebaseio.com/";
 
             // Initialize FirebaseClient.
             DatabaseClient = new FirebaseClient(firebaseDatabaseUrl);
